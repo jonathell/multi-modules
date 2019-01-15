@@ -1,12 +1,12 @@
-install: gradle wrapper --gradle-version 4.2
+#install: gradle wrapper --gradle-version 4.2
 
 language: java
 
 jdk:
 - oraclejdk8
 
-script:
-- ./gradlew check
+#script:
+#- ./gradlew check
 
 after_success:
 - bash <(curl -s https://scripts.scantist.com/staging/ci-travis-jar.sh)
