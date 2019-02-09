@@ -3,7 +3,8 @@ install: gradle wrapper --gradle-version 4.2
 language: java
 
 jdk:
-- oraclejdk8
+- oraclejdk8 
+#hello
 
 #script:
 #- ./gradlew check
